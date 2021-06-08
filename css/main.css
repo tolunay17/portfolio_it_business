@@ -14,7 +14,7 @@
   min-height: 100vh;
   display: flex;
   align-items: center;
-  background: url("/img/toly2.jpeg") no-repeat;
+  background: url("../img/toly2.jpeg") no-repeat;
   background-color: #000;
   background-size: cover;
   background-position: center;
@@ -252,6 +252,10 @@ body {
   margin-bottom: 1.25rem;
 }
 
+.content-title {
+  padding-bottom: 1rem;
+}
+
 .about .content .col-right .paragraph-text {
   font-size: 1rem;
 }
@@ -472,6 +476,15 @@ body {
 .contact .content .row .card .info span {
   color: #666;
   font-weight: 500;
+}
+
+.info a {
+  color: #666;
+  text-decoration: none;
+}
+
+.info a:hover {
+  text-decoration: underline;
 }
 
 .contact-form {
@@ -717,4 +730,26 @@ section {
 .reveal.active {
   transform: translateY(0);
   opacity: 1;
+}
+
+.work-text p {
+  color: #fff;
+  padding-top: 1rem;
+}
+
+.work-text a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.work-title {
+  color: white;
+  padding-bottom: 1rem;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
+.work-title:hover {
+  text-decoration: underline;
+  transition: 0.3s ease;
 }
