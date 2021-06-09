@@ -131,6 +131,10 @@ header .brand {
   text-decoration: none;
 }
 
+.brand span {
+  color: #000016;
+}
+
 header .navigation {
   position: relative;
 }
