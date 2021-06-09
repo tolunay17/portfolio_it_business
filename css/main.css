@@ -414,7 +414,6 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  object-fit: cover;
   border-radius: 0.625rem;
   transition: 0.5s ease;
 }
@@ -525,7 +524,7 @@ body {
 
 .contact-form .input-box .send-btn {
   color: #fff;
-  background: #DC143C;
+  background: crimson;
   display: inline-block;
   font-size: 1.1rem;
   font-weight: 500;
